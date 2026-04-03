@@ -1,0 +1,61 @@
+Cryptology Fundamentals
+What is Cryptology?
+Cryptology is the field of science that ensures confidentiality, integrity, and authentication of information using mathematical techniques.
+
+Types of Cryptology
+There are two main types:
+
+Cryptography : Used to encrypt and decrypt information
+Cryptanalysis :Used to break encrypted information
+What is Cryptography?
+
+Cryptography is the technique used to encrypt and decrypt data using different algorithms and methods.
+
+What is Cryptanalysis?
+
+Cryptanalysis is the process of analyzing and breaking encrypted data without knowing the key.
+
+Key Terms
+Encryption
+Converting readable data into an unreadable format
+Decryption
+Converting encrypted data back into readable form
+Key
+A secret value used in encryption and decryption. Without it, the process is not possible
+Types of Cryptography
+Symmetric Cryptography
+Same key is used for encryption and decryption
+Asymmetric Cryptography
+Different keys are used (Public + Private)
+Keys are mathematically related
+Principles of Cryptography
+1.Kerckhoffs's Principle
+
+A cryptosystem should be secure even if everything is known except the key.
+
+2.Shannon's Uncertainty Principle
+
+Ciphertext should appear completely random and contain no meaningful patterns.
+
+Cryptanalysis Techniques
+1.Brute Force Attack
+
+Trying all possible keys until the correct one is found
+
+2.Dictionary Attack
+
+Using common passwords (e.g., 12345678, password) to guess the key
+
+3.Side-Channel Attack
+
+Using indirect information like:
+
+Time taken
+Power consumption
+
+Example:
+If a system takes longer for partially correct passwords, attackers can guess patterns.
+
+4.Statistical Attack
+
+Analyzing repeating patterns in ciphertext to decrypt information
